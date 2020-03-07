@@ -1,0 +1,176 @@
+body {
+    background-color:#f6f6f6;
+    font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+.container {
+    width:920px;
+    margin:0 auto;
+    /* display:flex; */
+}
+header .container {
+    padding-bottom:20px;
+}
+.header-right {
+    float:right;
+    color: #515151;
+}
+.header-catch {
+    font-size:77%;
+    
+}
+
+.header-contact {
+    font-size:197%;
+    margin:0;
+    
+}
+.header-contact-time {
+    font-size:77%;
+    padding:1px 5px;
+    border:solid 1px #D6D6D6;
+    text-align:center;
+}
+.header-contact-time span {
+    color:red;
+}
+
+.header-left {
+
+    margin-top:50px;
+    float:left;
+    /* vertical-align:bottom; */
+}
+.header-nav {
+    width:100%;
+    display:flex;
+}
+.nav {
+    width:20%;
+    text-align:center;
+    background-color:rgb(108,198,196);
+    padding:17px 0 18px;
+    border-left:solid 1px rgb(153, 225, 223);
+}
+.nav a {
+    text-decoration:none;
+    
+}
+.navjp{
+    font-size:108%;
+    color:white;
+}
+.naven {
+    font-size:77%;
+    display:block;
+    color:white;
+}
+
+.main-navs{
+    float:left;
+}
+.main-nav {
+    width:260px;
+    border:1px solid rgb(108,198,196);
+    /* float:left; */
+    background:white;
+}
+.main-nav li {
+    color:rgb(89, 89, 89);
+    
+}
+
+.main-nav h2 {
+    font-size:123.1%;
+    background-color:rgb(108,198,196);
+    margin:0;
+    padding:0 15px;
+    color:white;
+}
+.main-nav li {
+    list-style-type: square;
+    border-bottom:1px solid rgb(108,198,196);
+    padding:8px 0;
+    margin-right:10px;
+    font-size:14.04px;
+}
+
+.main-nav2 {
+    margin-top:20px;
+}
+.main-nav2 {
+    font-weight:bold;
+}
+
+.work-image {
+    float:right;
+}
+.work-image img {
+    width:640px;
+    height:280px;
+}
+
+.news {
+    box-sizing:border-box;
+    width:640px;
+    float:right;
+    background:white;
+    padding:20px;
+    border-radius:5px;
+}
+.news h3 {
+    font-size:16.003px;
+    padding-bottom:15px;
+    border-bottom:solid 3px rgb(108,198,196);
+}
+.news-articles {
+    padding:0 10px;
+}
+.news-article {
+    display:flex;
+    border-bottom:dotted 1px rgb(204,204,204);
+}
+
+.news-article-left {
+    width:25%;
+    font-size:13px;
+}
+
+.news-article-right {
+    width:75%;
+    font-size:13px;
+}
+footer {
+    clear:both;
+}
+footer .container {
+    padding-top:15px;
+}
+.footer-navs {
+    display:flex;
+    background:rgb(108,198,196);
+    border-radius:5px;
+}
+.footer-navs li {
+    padding:5px 0;
+    margin-right:10px;
+    margin-left:10px;
+    color:white;
+    font-size:13px;
+}
+.footer-address {
+    float:right;
+    font-size:13px;
+    color:rgb(81, 81, 81);
+    padding:15px 0;
+}
+
+.footer-copyright {
+    clear:right;
+    border-top:2px solid rgb(108,198,196);
+}
+.footer-copyright p{
+    text-align:center;
+    color:rgb(81, 81, 81);
+    font-size:12.09px;
+}
